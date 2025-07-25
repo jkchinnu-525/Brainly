@@ -80,7 +80,7 @@ export default function Features() {
                       <div className="flex justify-center sm:justify-start">
                         <div className="transform scale-80 sm:scale-100">
                           <Image
-                            src="/brain.png"
+                            src="/Brain.png"
                             alt="AI Brain"
                             width={150}
                             height={150}
