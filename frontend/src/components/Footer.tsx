@@ -1,5 +1,6 @@
 import { Arrow } from "@/Effects/Icons";
 import Image from "next/image";
+import { LinkedIn, Github, X } from "@/Effects/Icons";
 
 export default function Footer() {
   return (
@@ -57,12 +58,7 @@ export default function Footer() {
                       className="hover:transform hover:scale-110 transition-transform duration-300"
                     >
                       <div className="w-12 h-12 md:w-14 md:h-14 relative">
-                        <Image
-                          src="/Linkedin.svg"
-                          alt="LinkedIn"
-                          fill
-                          className="object-contain"
-                        />
+                        <LinkedIn />
                       </div>
                     </a>
                     <a
@@ -70,25 +66,15 @@ export default function Footer() {
                       className="hover:transform hover:scale-110 transition-transform duration-300"
                     >
                       <div className="w-12 h-12 md:w-14 md:h-14 relative">
-                        <Image
-                          src="/Github.svg"
-                          alt="GitHub"
-                          fill
-                          className="object-contain"
-                        />
+                        <Github />
                       </div>
                     </a>
                     <a
                       href="#"
                       className="hover:transform hover:scale-110 transition-transform duration-300"
                     >
-                      <div className="w-12 h-12 md:w-14 md:h-14 relative rounded-[10px] p-2">
-                        <Image
-                          src="/X.svg"
-                          alt="X (Twitter)"
-                          fill
-                          className="object-contain"
-                        />
+                      <div className="w-12 h-12 md:w-14 md:h-14 relative">
+                        <X />
                       </div>
                     </a>
                   </div>
