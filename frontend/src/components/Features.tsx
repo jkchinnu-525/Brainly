@@ -8,19 +8,19 @@ export default function Features() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="text-center mb-12">
           <div className="flex flex-wrap justify-center items-center gap-2 sm:gap-4 sm:mb-6 lg:gap-8 lg:mb-10">
-            <h1 className="text-2xl sm:text-4xl lg:text-5xl xl:text-6xl font-normal font-'Montserrat' bg-clip-text text-transparent bg-gradient-to-r from-40% from-white to-[#999999] to-70%">
+            <h1 className="text-2xl sm:text-4xl lg:text-6xl  font-normal font-'Montserrat' bg-clip-text text-transparent bg-gradient-to-r from-40% from-white to-[#999999] to-70%">
               Seamless AI
             </h1>
-            <h1 className="text-2xl sm:text-4xl lg:text-5xl xl:text-6xl font-normal font-'Montserrat' bg-clip-text text-transparent bg-gradient-to-r from-15% from-[#006F91] to-[#0BB6C0] to-50%">
+            <h1 className="text-2xl sm:text-4xl lg:text-6xl  font-normal font-'Montserrat' bg-clip-text text-transparent bg-gradient-to-r from-15% from-[#006F91] to-[#0BB6C0] to-50%">
               Collaboration
             </h1>
           </div>
           <div className="flex flex-wrap justify-center items-center lg:gap-4">
-            <span className="text-2xl sm:text-4xl lg:text-5xl xl:text-6xl font-normal font-'Montserrat' bg-clip-text text-transparent bg-gradient-to-r from-40% from-white to-[#999999] to-70%">
+            <span className="text-2xl sm:text-4xl lg:text-6xl  font-normal font-'Montserrat' bg-clip-text text-transparent bg-gradient-to-r from-40% from-white to-[#999999] to-70%">
               for
             </span>
             <People />
-            <span className="text-2xl sm:text-4xl lg:text-5xl xl:text-6xl font-normal font-'Montserrat' bg-clip-text text-transparent bg-gradient-to-r from-15% from-[#006F91] to-[#0BB6C0] to-50%">
+            <span className="text-2xl sm:text-4xl lg:text-6xl font-normal font-'Montserrat' bg-clip-text text-transparent bg-gradient-to-r from-15% from-[#006F91] to-[#0BB6C0] to-50%">
               Developers
             </span>
           </div>

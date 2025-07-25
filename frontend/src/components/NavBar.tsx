@@ -7,7 +7,7 @@ export default function Navbar() {
     <div className="relative w-full min-h-screen overflow-hidden">
       <BackgroundGradients />
       <div className="relative z-10 pt-36 flex flex-col items-center justify-center min-h-screen px-4">
-        <div className="transform: -translate-y-30">
+        <div className="-translate-y-30">
           <div className="relative px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm">
             <div className="flex items-center gap-2">
               <Text />
@@ -15,34 +15,34 @@ export default function Navbar() {
           </div>
         </div>
         <div className="text-center mb-10">
-          <h1 className="text-4xl md:text-6xl font-Montserrat font-normal ">
+          <h1 className="text-3xl md:text-6xl font-Montserrat font-normal ">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#ffffff] from-50% to-[#999999] to-75%">
               Transform How You
             </span>
           </h1>
           <div className="flex items-center justify-center gap-4 mt-4">
-            <span className="text-6xl md:text-6xl font-Montserrat font-normal bg-clip-text text-transparent bg-[#999999]">
+            <span className="text-3xl md:text-6xl font-Montserrat font-normal bg-clip-text text-transparent bg-[#999999]">
               Build
             </span>
             <Rocket />
-            <span className="text-6xl md:text-6xl font-'Montserrat' font-normal text-[#ffffff]">
+            <span className="text-3xl md:text-6xl font-Montserrat font-normal text-[#ffffff]">
               Software
             </span>
           </div>
         </div>
-        <p className="text-white text-lg text-center max-w-2xl mb-12 font-'Montserrat'">
+        <p className="text-white text-lg text-center max-w-2xl mb-12 font-Montserrat">
           Seamlessly explore, debug, and Empower your development
           <br />
           with AI that understands your entire project.
         </p>
-        <div className="relative transform: translate-y-8 flex items-center justify-center w-full max-w-4xl">
-          <div className="absolute left-0 top-1/2 w-[30%] h-px bg-gradient-to-r from-transparent to-white/100" />
-          <div className="rounded-4xl shadow-[inset_0.21887646615505219px_0.3647941052913666px_2.9183528423309326px_0px_rgba(3,78,78,1.00)] outline-8 outline-white/20 ">
-            <button className="px-3 py-3 cursor-pointer bg-white rounded-4xl shadow-[inset_0px_12px_8px_0px_rgba(174,203,192,1)] flex items-center gap-6 hover:scale-105  transition-transform">
+        <div className="relative mt-20 flex items-center justify-center w-full max-w-4xl">
+          <div className="absolute -left-14 md:left-0 top-1/2 w-[30%] h-px bg-gradient-to-r from-transparent to-white/100" />
+          <div className="rounded-3xl shadow-[inset_0.21887646615505219px_0.3647941052913666px_2.9183528423309326px_0px_rgba(3,78,78,1.00)] outline-8 outline-white/20 ">
+            <button className="px-3 py-4 bg-white cursor-pointer rounded-3xl shadow-[inset_0px_12px_8px_0px_rgba(174,203,192,1)] flex items-center hover:scale-105 transition-all duration-300 gap-6">
               <div className="relative">
                 <Star />
               </div>
-              <span className="text-black text-lg font-'Montserrat' font-medium">
+              <span className="text-black text-lg font-Montserrat font-medium">
                 Start Now
               </span>
               <div className="relative">
@@ -50,7 +50,7 @@ export default function Navbar() {
               </div>
             </button>
           </div>
-          <div className="absolute right-0 top-1/2 w-[30%] h-px bg-gradient-to-l from-transparent to-white/100" />
+          <div className="absolute -right-14 md:right-0 top-1/2 w-[30%] h-px bg-gradient-to-l from-transparent to-white/100" />
         </div>
       </div>
     </div>

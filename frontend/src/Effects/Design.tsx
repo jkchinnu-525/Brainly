@@ -1235,3 +1235,232 @@ export function LineDesign() {
     </div>
   );
 }
+
+export function LineEffect() {
+  return (
+    <div>
+      <svg
+        width="1377"
+        height="1162"
+        viewBox="0 0 1377 1162"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g filter="url(#filter0_g_174_879)">
+          <path
+            d="M1374 581L808 581"
+            stroke="url(#paint0_linear_174_879)"
+            strokeWidth="2.14814"
+          />
+        </g>
+        <g filter="url(#filter1_g_174_879)">
+          <path
+            d="M3 581L569 581"
+            stroke="url(#paint1_linear_174_879)"
+            strokeWidth="2.14814"
+          />
+        </g>
+        <g filter="url(#filter2_g_174_879)">
+          <path
+            d="M682 3L682 500"
+            stroke="url(#paint2_linear_174_879)"
+            strokeWidth="2.14814"
+          />
+        </g>
+        <g filter="url(#filter3_g_174_879)">
+          <path
+            d="M682 1159L682 662"
+            stroke="url(#paint3_linear_174_879)"
+            strokeWidth="2.14814"
+          />
+        </g>
+        <defs>
+          <filter
+            id="filter0_g_174_879"
+            x="805.852"
+            y="577.778"
+            width="570.296"
+            height="6.44472"
+            filterUnits="userSpaceOnUse"
+            colorInterpolationFilters="sRGB"
+          >
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feTurbulence
+              type="fractalNoise"
+              baseFrequency="0.93103712797164917 0.93103712797164917"
+              numOctaves="3"
+              seed="5206"
+            />
+            <feDisplacementMap
+              in="shape"
+              scale="4.2962841987609863"
+              xChannelSelector="R"
+              yChannelSelector="G"
+              result="displacedImage"
+              width="100%"
+              height="100%"
+            />
+            <feMerge result="effect1_texture_174_879">
+              <feMergeNode in="displacedImage" />
+            </feMerge>
+          </filter>
+          <filter
+            id="filter1_g_174_879"
+            x="0.851858"
+            y="577.778"
+            width="570.296"
+            height="6.44472"
+            filterUnits="userSpaceOnUse"
+            colorInterpolationFilters="sRGB"
+          >
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feTurbulence
+              type="fractalNoise"
+              baseFrequency="0.93103712797164917 0.93103712797164917"
+              numOctaves="3"
+              seed="5206"
+            />
+            <feDisplacementMap
+              in="shape"
+              scale="4.2962841987609863"
+              xChannelSelector="R"
+              yChannelSelector="G"
+              result="displacedImage"
+              width="100%"
+              height="100%"
+            />
+            <feMerge result="effect1_texture_174_879">
+              <feMergeNode in="displacedImage" />
+            </feMerge>
+          </filter>
+          <filter
+            id="filter2_g_174_879"
+            x="678.778"
+            y="0.851858"
+            width="6.44448"
+            height="501.296"
+            filterUnits="userSpaceOnUse"
+            colorInterpolationFilters="sRGB"
+          >
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feTurbulence
+              type="fractalNoise"
+              baseFrequency="0.93103712797164917 0.93103712797164917"
+              numOctaves="3"
+              seed="5206"
+            />
+            <feDisplacementMap
+              in="shape"
+              scale="4.2962841987609863"
+              xChannelSelector="R"
+              yChannelSelector="G"
+              result="displacedImage"
+              width="100%"
+              height="100%"
+            />
+            <feMerge result="effect1_texture_174_879">
+              <feMergeNode in="displacedImage" />
+            </feMerge>
+          </filter>
+          <filter
+            id="filter3_g_174_879"
+            x="678.778"
+            y="659.852"
+            width="6.44448"
+            height="501.296"
+            filterUnits="userSpaceOnUse"
+            colorInterpolationFilters="sRGB"
+          >
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feTurbulence
+              type="fractalNoise"
+              baseFrequency="0.93103712797164917 0.93103712797164917"
+              numOctaves="3"
+              seed="5206"
+            />
+            <feDisplacementMap
+              in="shape"
+              scale="4.2962841987609863"
+              xChannelSelector="R"
+              yChannelSelector="G"
+              result="displacedImage"
+              width="100%"
+              height="100%"
+            />
+            <feMerge result="effect1_texture_174_879">
+              <feMergeNode in="displacedImage" />
+            </feMerge>
+          </filter>
+          <linearGradient
+            id="paint0_linear_174_879"
+            x1="1374"
+            y1="580.5"
+            x2="808"
+            y2="580.5"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0.00961538" stopOpacity="0.6" />
+            <stop offset="0.677885" stopColor="#13A3A3" />
+          </linearGradient>
+          <linearGradient
+            id="paint1_linear_174_879"
+            x1="3"
+            y1="580.5"
+            x2="569"
+            y2="580.5"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0.00961538" stopOpacity="0.6" />
+            <stop offset="0.677885" stopColor="#13A3A3" />
+          </linearGradient>
+          <linearGradient
+            id="paint2_linear_174_879"
+            x1="682.5"
+            y1="3"
+            x2="682.5"
+            y2="500"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0.00961538" stopOpacity="0.6" />
+            <stop offset="0.677885" stopColor="#13A3A3" />
+          </linearGradient>
+          <linearGradient
+            id="paint3_linear_174_879"
+            x1="681.5"
+            y1="1159"
+            x2="681.5"
+            y2="662"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0.00961538" stopOpacity="0.6" />
+            <stop offset="0.677885" stopColor="#13A3A3" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+  );
+}
