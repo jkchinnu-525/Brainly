@@ -1,6 +1,6 @@
 export function BackgroundGradients() {
   return (
-    <div className="absolute inset-0 overflow-hidden">
+    <div className="absolute inset-0 z-1 overflow-hidden">
       <svg
         width="984"
         height="612"

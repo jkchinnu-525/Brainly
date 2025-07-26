@@ -53,6 +53,21 @@ export default function Navbar() {
           <div className="absolute -right-14 md:right-0 top-1/2 w-[30%] h-px bg-gradient-to-l from-transparent to-white/100" />
         </div>
       </div>
+      <div className="absolute bottom-0 left-0 w-full h-auto flex justify-center z-0">
+        <div className=" backdrop-filter box-border flex flex-row gap-[40px] items-end justify-center p-0">
+          <div className="w-18 h-[1000px] bg-gradient-to-b from-[#996464]/4 from-20% to-black/1 to-100% backdrop-blur-[65px]" />
+          <div className="w-18 h-[1000px] bg-gradient-to-b from-[#996464]/4 from-20% to-black/1 to-100% backdrop-blur-[65px]" />
+          <div className="w-18 h-[1000px] bg-gradient-to-b from-[#996464]/4 from-20% to-black/1 to-100% backdrop-blur-[65px]" />
+          <div className="w-18 h-[1000px] bg-gradient-to-b from-[#996464]/4 from-20% to-black/1 to-100% backdrop-blur-[65px]" />
+          <div className="w-18 h-[1000px] bg-gradient-to-b from-[#999999]/2 from-20% to-black/1 to-100% backdrop-blur-[65px]" />
+          <div className="w-18 h-[1000px] bg-gradient-to-b from-[#999999]/6 from-20% to-black/1 to-100% backdrop-blur-[65px]" />
+          <div className="w-18 h-[1000px] bg-gradient-to-b from-[#999999]/2 from-20% to-black/1 to-100% backdrop-blur-[65px]" />
+          <div className="w-18 h-[1000px] bg-gradient-to-b from-[#996464]/4 from-20% to-black/1 to-100% backdrop-blur-[65px]" />
+          <div className="w-18 h-[1000px] bg-gradient-to-b from-[#996464]/4 from-20% to-black/1 to-100% backdrop-blur-[65px]" />
+          <div className="w-18 h-[1000px] bg-gradient-to-b from-[#996464]/4 from-20% to-black/1 to-100% backdrop-blur-[65px]" />
+          <div className="w-18 h-[1000px] bg-gradient-to-b from-[#996464]/4 from-20% to-black/1 to-100% backdrop-blur-[65px]" />
+        </div>
+      </div>
     </div>
   );
 }
